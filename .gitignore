@@ -1,0 +1,11 @@
+# esto es un cometario y sera ignorado
+# archivo para ordenar excepciones de rastreo. LO QUE GIT NO RASTREARA.
+
+#	-Con # se crean comentarios dentro del archivo
+#	-Con .extension se crean ordenes para que ciertas extensiones no sean rastreadas; .a
+#	-Con !<filename.ext> se crean excepciones a archivos aunque sus extensiones se hayan excluido del rastreo en otra orden
+#	-/TODO se ignora el archivo raíz TODO, no subdir/TODO
+#	-build/ Ignora todos los archivos en el directorio build/
+#	-doc/*.txt Ignora doc/notes.txt, pero no doc/server/archivo.txt
+#
+#----------------------------------------------------------#
